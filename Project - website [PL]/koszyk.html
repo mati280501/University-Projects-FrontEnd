@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sklep | Koszyk</title>
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+		<nav>
+			<a href="index.html" class="logo"><img src="images/logo.png"></a>
+			<ul class="menu-koszyk">
+				<li><a href="sklep.html">POWRÓT DO SKLEPU <i class="fas fa-backspace"></i></a></li>
+			</ul>
+		</nav>
+		<div class="koszyk">
+			<div class="koszyk-form">
+				<h1>Aby złożyć zamówienie, <br>wypełnij formularz!</h1>
+				<form>
+					<input type="text" name="name" id="name" placeholder="Imię i nazwisko">
+					<input type="email" name="email" id="email" placeholder="Email">
+					<select name="lista pakiety">
+						<option selected>Nie wybieram pakietu</option>
+						<option>Pakiet brązowy</option>
+						<option>Pakiet srebrny</option>
+						<option>Pakiet złoty</option>
+					</select>
+					<input type="checkbox" name="usługi" value="1">Szkolenie dla pracowników<br>
+					<input type="checkbox" name="usługi" value="1">Weryfikacja sprzętu<br>
+					<input type="checkbox" name="usługi" value="1">Wymiana i podłączenie nowego sprzętu<br>
+					<input type="checkbox" name="usługi" value="1">Instalacja najlepszego oprogramowania<br>
+					<textarea name="zamowienie" rows="10" placeholder="Opisz swój problem"></textarea>
+					<button type="submit" class="koszyk-button">ZŁÓŻ ZAMÓWIENIE</button>
+				</form>	
+			</div>	
+		</div>
+		<footer class="footer">
+			<p>© Buckler 2021. Wszystkie prawa zastrzeżone.</p>
+		</footer>
+	</body>
+</html>

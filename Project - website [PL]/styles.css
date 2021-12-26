@@ -1,0 +1,1838 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    max-width: 2000px; 
+    height: 100%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav{
+    padding: 25px;
+    background: #ffff;
+    height: 80px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 2000px;
+}
+
+nav .menu{
+    float:right;
+}
+
+nav .menu li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav .menu li a{
+    color: #707070;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.menu-koszyk{
+    float: right;
+}
+
+.menu-koszyk li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+.menu-koszyk li a{
+    color: #707070;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    color: #00cae1
+}
+
+.menu-koszyk li a:hover{
+    color: #00cae1
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:  #707070;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.footer{
+    background-image: url(images/footer.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    clear: both;
+    margin-bottom: 0px;
+    bottom: 0;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 70px;
+}
+
+.koszyk {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.koszyk-form {
+    border: solid#474544;
+    border-radius: 10px;
+    padding: 12px 18px;
+}
+
+.koszyk h1 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.koszyk-form textarea {
+    margin-top: 30px;
+}
+
+.koszyk-button {
+    width: 170px;
+    padding: 6px 9px;
+    background-color: #00cae1;
+    color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px #474544;
+    margin-left: 119px;
+}
+
+.home {
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.baner1a {
+    background: url(images/tour-bg.png);
+    height: 140px;
+    margin-bottom: 40px;
+}
+
+.baner1 {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.baner1 h1{
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 140px;
+}
+
+.baner2 {
+    width: 1100px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 330px 420px 330px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.baner-o-nas {
+    width: 330px;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 120px 210px;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: solid#474544;
+    border-top-left-radius: 10px;
+}
+
+.baner-cennik {
+    width: 420px;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 120px 300px;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: solid#474544;
+}
+
+.baner-kontakt {
+    width: 330px;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 120px 190px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: solid#474544;
+    border-top-right-radius: 10px;
+}
+
+.baner-sklep {
+    width: 1100px;
+    height: 270px;
+    display: grid;
+    grid-template-columns: 330px 670px;
+    grid-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    border: solid#474544;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.baner-sklep .home-zdjecie img{
+    height: 150px;
+    width: 150px;
+    margin: 0px 90px;
+}
+
+.home-zdjecie img{
+    height: 100px;
+    width: 100px;
+    margin: 0px 10px;
+}
+
+.home-opis {
+    height: 170px;
+}
+
+.home-opis p{
+    font-size: 20px;
+    line-height: 50px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.home-button :hover {
+    background-color: #5ce8ff;
+}
+
+.home-button a {
+    width: 170px;
+    padding: 6px 9px;
+    background-color: #00cae1;
+    color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px #474544;
+}
+
+.baner-o-nas .home-button {
+    margin: 0 15px;
+}
+
+.baner-cennik .home-button {
+    margin: 0 50px;
+}
+
+.baner-kontakt .home-button {
+    margin: 0 10px;
+}
+
+.baner-sklep .home-button {
+    margin: 0 70px;
+}
+
+.container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 80px;
+    background: #ffff;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container-p1{
+    background-image: url(images/tour-bg.png);
+    background-color: #fbfafa;
+    background-repeat: repeat-x;
+    height: 140px;
+    background-position: center;
+    display: table;
+    position: static;
+    width: 100%;
+}
+
+.container-p1 p{
+    padding-top: 40px;
+    font-weight: 600;
+    width: 1100px;
+    text-align: justify;
+}
+
+.container p{
+    font-size: 24px;
+    line-height: 30px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.o-nas-circles{
+    padding-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-caption1{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.circle1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #00cae1;
+    font-size: 100px;
+    color: white;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+.caption1{
+    padding-top: 10px;
+}
+
+.circle-caption2{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.circle2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #00cae1;
+    font-size: 100px;
+    color: white;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+.caption2{
+    padding-top: 10px;
+}
+
+.circle-caption3{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.circle3{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #00cae1;
+    font-size: 100px;
+    color: white;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+.caption3{
+    padding-top: 10px;
+}
+
+.circle-caption4{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.circle4{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #00cae1;
+    font-size: 100px;
+    color: white;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+.caption4{
+    padding-top: 10px;
+    height: 50px;
+}
+
+.o-nas-bottom1{
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 280px 600px;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-nas-img1{
+    width: 280px;
+    height: 180px;
+    float:left;
+}
+
+.o-nas-caption1{
+    width: 600px;
+}
+
+.o-nas-caption1 p{
+    text-align:center;
+}
+
+.o-nas-bottom2{
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 600px 280px;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-nas-img2{
+    width: 280px;
+    height: 180px;
+    float:left;
+}
+
+.o-nas-caption2{
+    width: 600px;
+}
+
+.o-nas-caption2 p{
+    text-align:center;
+}
+
+.o-nas-bottom3{
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 280px 600px;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.o-nas-img3{
+    width: 280px;
+    height: 180px;
+    float:left;
+}
+
+.o-nas-caption3{
+    width: 600px;
+}
+
+.o-nas-caption3 p{
+    text-align:center;
+}
+
+.male-img{
+    height:180px;
+    float: left;
+    position: absolute;
+}
+
+.female-img{
+    padding-left:100px;
+    height: 180px;
+    float: left;
+    position: absolute;
+}
+
+.laptop-img{
+    height: 180px;
+    float: left;
+    position: absolute;
+    padding-left: 50px;
+}
+
+.virus-img{
+    height: 180px;
+    float: left;
+    position: absolute;
+    padding-left: 50px;
+}
+
+.cennik-pakiety{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cennik-pakiety ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.cennik-pakiety li{
+    padding: 12px 18px;
+    background-color: #f7f7f7;
+    margin-bottom: 5px;
+    color: #696969;
+}
+
+.cennik-pakiety span{
+    float: right;
+}
+
+.pakiet-gora{
+    background-color: transparent !important;
+    color: #FFFFFF !important;
+    overflow: hidden;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.nazwa-pakietu{
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.cena-pakietu {
+    color: #fff;
+    font-size: 14px;
+    height: 50px;
+    margin-bottom: 5px;
+    z-index: 5;
+    padding-top: 13px;
+    font-size: 24px;
+}
+
+.pakiet1 .nazwa-pakietu{
+    background-color: #AE7D50
+}
+
+.pakiet1 .cena-pakietu{
+    background-color: #BC926D;
+}
+
+.pakiet2 .nazwa-pakietu{
+    background-color: #B4B4B4;
+}
+
+.pakiet2 .cena-pakietu{
+    background-color: #DADADA;
+}
+
+.pakiet3 .nazwa-pakietu{
+    background-color: #F4D03F;
+}
+
+.pakiet3 .cena-pakietu{
+    background-color: #F7DC6F;
+}
+
+.cennik-button{
+    border-radius: 0;
+    color: #fff;
+    padding: 12px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.pakiet1 .cennik-button {
+    background-color: #AE7D50;
+}
+
+.pakiet1 .cennik-button:hover {
+    background-color: #986D46;
+    color: #ffff;
+}
+
+.pakiet2 .cennik-button {
+    background-color: #B4B4B4;
+}
+
+.pakiet2 .cennik-button:hover {
+    background-color: #9E9E9E;
+    color: #ffff;
+}
+
+.pakiet3 .cennik-button {
+    background-color: #F4D03F;
+}
+
+.pakiet3 .cennik-button:hover {
+    background-color: #D6B637;
+    color: #ffff
+}
+
+.cennik-uslug {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7f7f7;
+    font-size: 20px;
+}
+
+.cennik-uslug1 {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #696969;
+}
+
+.nazwa-uslugi {
+    height: 60px;
+    width: 1100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nazwa-uslugi a {
+    float: right;
+    color: #00cae1;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nazwa-uslugi a :hover {
+    color: #5ce8ff;
+}
+
+.cena-uslugi {
+    float: right;
+    background-color: #5ce8ff;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cennik-przerwa {
+    height: 5px;
+    width: 1100px;
+    background-color: #ffffff;
+}
+
+.cennik-info {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-left: 15px;
+}
+
+.cennik-info p{
+    font-size: 12px
+}
+
+.sklep {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sklep-content {
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.zakupy-button {
+    background-color: #00cae1;
+}
+
+.zakupy-button :hover{
+    background-color: #20D1E5;
+}
+
+.zakupy-button p{
+    line-height: 220px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.product {
+    background-color: #f7f7f7;
+}
+
+.product:hover{
+    background-color: #E8E8E8;
+}
+
+.sklep-uslugi1 {
+    display: grid;
+    grid-template-columns: 547.25px 547.25px;
+    grid-gap: 5.5px;
+    margin-bottom: 5.5px;
+    position: static;
+}
+
+.sklep-uslugi2 {
+    display: grid;
+    grid-template-columns: 547.25px 547.25px;
+    grid-gap: 5.5px;
+    margin-bottom: 80px;
+}
+
+.pakiet-zloty .sklep-zdjecie {
+    width: 150px;
+    height: 150px;
+    padding: 20px 106.5px;
+}
+
+.sklep-uslugi1 .sklep-zdjecie{
+    width: 150px;
+    height: 150px;
+    margin: 20px 198.625px;
+}
+
+.product {
+    border: solid 0px;
+    background-color: #f7f7f7;
+}
+
+.product :hover{
+    background-color: #E8E8E8;
+}
+
+.sklep-podpis {
+    color: #00cae1;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.produkt {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 400px 625px;
+    grid-gap: 75px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.produkt-zdjecie {
+    height: 250px;
+    padding-left: 75px;
+}
+
+.produkt-zdjecie .sklep-zdjecie1 {
+    height: 250px;
+    width: 250px;
+}
+
+.produkt-zdjecie .sklep-zdjecie2 {
+    width: 250px;
+    height: 250px;
+}
+
+.produkt-zdjecie .sklep-zdjecie3 {
+    width: 250px;
+    height: 250px;
+    padding: 0;
+}
+
+.produkt-zdjecie .sklep-zdjecie4 {
+    height: 250px;
+    width: 250px;
+}
+
+.produkt-zdjecie .sklep-zdjecie5 {
+    height: 250px;
+    width: 250px;
+}
+
+.zobacz-w-sklepie {
+    padding: 75.5px 224.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zobacz-w-sklepie  a {
+    padding: 12px 18px;
+    background-color: #00cae1;
+    border-radius: 10px;
+    color: #E8E8E8
+}
+
+.zobacz-w-sklepie  a:hover{
+    background-color: #5ce8ff;
+}
+
+.produkt-info {
+    width: 1100px;
+    padding-top: 25px;
+    padding-left: 75px;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.produkt-tlo {
+    width: 100%;
+    background-image: url(images/tour-bg.png);
+    height: 140px;
+    margin-bottom: 80px;
+}
+
+.kontakt-container{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    background: #ffff;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
+.kontakt1{
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt2{
+    width: 650px;
+}
+
+.adres{
+    padding: 10px;
+    border: solid#474544;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url(images/tour-bg.png);
+}
+
+.adres p{
+    color:#474544;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.adres h1{
+    color: #474544;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mapa-ramka{
+    border: solid #474544;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mapa{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 365px;
+}
+
+.form {
+    padding: 10px;
+    border:solid #474544;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height:548px;
+  }
+  
+.form h1 {
+    color: #474544;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+.underline {
+    padding-top: 10px;
+    border-bottom: solid 2px #474544;
+    margin: -0.512em auto;
+    width: 80px;
+  }
+  
+.icon_wrapper {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+.icon {
+    display: block;
+    fill: #474544;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+input[type='text'], [type='email'], select, textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+  
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+  
+.message {
+    float: none;
+}
+  
+.name {
+    float: left;
+    width: 48%;
+    height: 70px;
+}
+
+.last-name {
+    float: right;
+    width: 48%;
+    height: 70px;
+}
+
+.email {
+    float: left;
+    width: 100%;
+    height: 70px;
+}
+  
+.message textarea {
+    line-height: 150%;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+ 
+#form_button {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+  
+#form_button:hover {
+    background: #00cae1;
+    color: #ffffff;
+}
+
+@media (max-width: 1156px){
+    .checkbtn{
+        display: block;
+    }
+    nav .menu{
+        position:absolute;
+        width: 350px;
+        height: 280px;
+        background: #ffffff;
+        top: 95px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav .menu li{
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+    nav .menu li a{
+        font-size: 20px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+    .baner1a {
+        background: url(images/tour-bg.png);
+        height: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .baner1 {
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    
+    .baner1 h1{
+        font-size: 32px;
+        letter-spacing: 2px;
+        line-height: 100px;
+    }
+    
+    .baner2 {
+        width: 720px;
+        height: 530px;
+        display: block;
+    }
+    
+    .baner-o-nas {
+        width: 720px;
+        grid-template-columns: 220px 490px;
+        grid-gap: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .baner-cennik {
+        width: 720px;
+        grid-template-columns: 220px 490px;
+        grid-gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .baner-kontakt {
+        width: 720px;
+        grid-template-columns: 220px 490px;
+        grid-gap: 10px;
+        margin-bottom: 10px;
+        border-top-right-radius: 0;
+    }
+    
+    .baner-sklep {
+        width: 720px;
+        height: 170px;
+        grid-template-columns: 220px 490px;
+        grid-gap: 10px;
+        margin-bottom: 10px;
+        border-top-right-radius: 0;
+    }
+    
+    .home-zdjecie img{
+        height: 100px;
+        width: 100px;
+        margin: 0px 60px;
+    }
+
+    .baner-sklep .home-zdjecie img{
+        height: 100px;
+        width: 100px;
+        margin: 0px 60px;
+    }
+    
+    .home-opis p{
+        text-align: center;
+    }
+    
+    .baner-o-nas .home-button {
+        margin: 0 160px;
+    }
+    
+    .baner-cennik .home-button {
+        margin: 0 160px;
+    }
+    
+    .baner-kontakt .home-button {
+        margin: 0 183px;
+    }
+    
+    .baner-sklep .home-button {
+        margin: 0 83px;
+    }
+
+    .container{
+        padding: 25px;
+        background: #ffff;
+    }
+
+    .container-p1 p{
+        padding-top: 25px;
+        margin-left:auto;
+        margin-right: auto;
+        width: 720px;
+        font-size: 24px;
+    }
+
+    .o-nas-circles{
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: 140px 140px 140px 140px;
+        grid-gap: 35px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .circle-caption1{
+        float: left;
+        width: 140px;
+        text-align: center;
+    }
+    
+    .circle1{
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        font-size: 70px;
+        color: white;
+        text-align: center; 
+        padding-top: 35px; 
+    }
+    
+    .caption1{
+        padding-top: 10px;
+    }
+    
+    .circle-caption2{
+        float: left;
+        width: 140px;
+        text-align: center;
+    }
+    
+    .circle2{
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        font-size: 70px;
+        color: white;
+        text-align: center; 
+        padding-top: 35px; 
+    }
+    
+    .caption2{
+        padding-top: 10px;
+    }
+    
+    .circle-caption3{
+        float: left;
+        width: 140px;
+        text-align: center;
+    }
+    
+    .circle3{
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        font-size: 70px;
+        color: white;
+        text-align: center; 
+        padding-top: 35px; 
+    }
+    
+    .caption3{
+        padding-top: 10px;
+        height: 50px;
+    }
+    
+    .circle-caption4{
+        float: left;
+        width: 140px;
+        text-align: center;
+    }
+    
+    .circle4{
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        font-size: 70px;
+        color: white;
+        text-align: center; 
+        padding-top: 35px;  
+    }
+    
+    .caption4{
+        padding-top: 10px;
+        height: 50px;
+    }
+
+    .o-nas-bottom1{
+        height: 140px;
+        grid-template-columns: 218px 467px;
+        grid-gap: 20px;
+    }
+    
+    .o-nas-img1{
+        width: 218px;
+        height: 140px;
+    }
+    
+    .o-nas-caption1{
+        width: 467px;
+    }
+    
+    .o-nas-bottom2{
+        height: 140px;
+        grid-template-columns: 467px 218px;
+        grid-gap: 20px;
+    }
+    
+    .o-nas-img2{
+        width: 218px;
+        height: 140px;
+    }
+    
+    .o-nas-caption2{
+        width: 467px;
+    }
+    
+    .o-nas-bottom3{
+        height: 140px;
+        grid-template-columns: 218px 467px;
+        grid-gap: 20px;
+    }
+    
+    .o-nas-img3{
+        width: 218px;
+        height: 140px;
+    }
+    
+    .o-nas-caption3{
+        width: 467px;
+    }
+    
+    .male-img{
+        height:140px;
+    }
+    
+    .female-img{
+        padding-left:78px;
+        height: 140px;
+    }
+    
+    .laptop-img{
+        height: 140px;
+        padding-left: 39px;
+    }
+    
+    .virus-img{
+        height: 140px;
+        padding-left: 39px;
+    }
+
+    .cennik-pakiety{
+        grid-template-columns: 225px 225px 225px;
+        grid-gap: 15px;
+    }
+
+    .cennik-uslug {
+        width: 705px;
+        font-size: 20px;
+    }
+    
+    .nazwa-uslugi {
+        width: 705px;
+        height: 60px;
+    }
+    
+    .cennik-przerwa {
+        width: 705px;
+    }
+    
+    .cennik-info {
+        width: 705px;
+    }
+
+    .sklep {
+        width: 720px;
+    }
+    
+    .sklep-pakiety {
+        grid-template-columns: 236.33px 236.33px 236.33px;
+    }
+    
+    .sklep-uslugi1 {
+        grid-template-columns: 357.25px 357.25px;
+    }
+    
+    .sklep-uslugi2 {
+        grid-template-columns: 357.25px 357.25px;
+    }
+
+    .sklep-pakiety .sklep-zdjecie {
+        width: 100px;
+        height: 100px;
+        padding: 20px 68.165px;
+    }
+    
+    .sklep-uslugi1 .sklep-zdjecie {
+        width: 100px;
+        height: 100px;
+        margin: 20px 128.625px;
+    }
+
+    .sklep-uslugi2 .sklep-zdjecie {
+        width: 100px;
+        height: 100px;
+        margin: 20px 128.625px;
+    }
+
+    .sklep-podpis {
+        font-size: 18px;
+    }
+
+    .produkt {
+        width: 720px;
+        grid-template-columns: 200px 480px;
+        grid-gap: 40px;
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .produkt-zdjecie {
+        height: 150px;
+        padding-left: 25px;
+    }
+    
+    .produkt-zdjecie .sklep-zdjecie1 {
+        height: 150px;
+        width: 150px;
+    }
+
+    
+    .produkt-zdjecie .sklep-zdjecie2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .produkt-zdjecie .sklep-zdjecie3 {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+    }
+    
+    .produkt-zdjecie .sklep-zdjecie4 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .produkt-zdjecie .sklep-zdjecie5 {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .zobacz-w-sklepie {
+        padding: 25.5px 157.47px;
+    }
+    
+    .produkt-info {
+        width: 720px;
+        padding-left: 25px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .kontakt1{
+        display: grid;
+        grid-template-columns: 500px 300px;
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kontakt2{
+            width: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    .checkbtn{
+        display: block;
+    }
+    nav .menu{
+        position:absolute;
+        width: 100%;
+        height: 280px;
+        background: #ffffff;
+        top: 95px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav .menu li{
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+    nav .menu li a{
+        font-size: 20px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+    .baner1 {
+        width: 450px;
+    }
+    
+    .baner1 h1{
+        font-size: 32px;
+        letter-spacing: 2px;
+        line-height: 100px;
+    }
+    
+    .baner2 {
+        width: 450px;
+        height: 530px;
+        display: block;
+    }
+    
+    .baner-o-nas {
+        width: 450px;
+        grid-template-columns: 120px 320px;
+    }
+    
+    .baner-cennik {
+        width: 450px;
+        grid-template-columns: 120px 320px;
+    }
+    
+    .baner-kontakt {
+        width: 450px;
+        grid-template-columns: 120px 320px;
+    }
+    
+    .baner-sklep {
+        width: 450px;
+        grid-template-columns: 120px 320px;
+    }
+    
+    .home-zdjecie img{
+        height: 100px;
+        width: 100px;
+        margin: 0px 10px;
+    }
+
+    .baner-sklep .home-zdjecie img{
+        height: 100px;
+        width: 100px;
+        margin: 0px 10px;
+    }
+    
+    .baner-o-nas .home-button {
+        margin: 0 78px;
+    }
+    
+    .baner-cennik .home-button {
+        margin: 0 78px;
+    }
+    
+    .baner-kontakt .home-button {
+        margin: 0 96px;
+    }
+    
+    .baner-sklep .home-button {
+        margin: 0 3px;
+    }
+
+    .baner-sklep .home-opis p {
+        line-height: 30px;
+    }
+
+    .container{
+        padding: 25px;
+        background: #ffff;
+    }
+
+    .container-p1 p{
+        padding-top: 10px;
+        margin-left:auto;
+        margin-right: auto;
+        width: 450px;
+    }
+
+    .o-nas-circles{
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .circle-caption1{
+        float: left;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .circle1{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: white;
+        text-align: center; 
+        padding-top: 25px; 
+    }
+    
+    .caption1{
+        padding-top: 10px;
+        height: 50px;
+    }
+    
+    .circle-caption2{
+        float: left;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .circle2{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: white;
+        text-align: center; 
+        padding-top: 25px; 
+    }
+    
+    .caption2{
+        padding-top: 10px;
+        height: 50px;
+    }
+    
+    .circle-caption3{
+        float: left;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .circle3{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: white;
+        text-align: center; 
+        padding-top: 25px; 
+    }
+    
+    .caption3{
+        padding-top: 10px;
+        height: 50px;
+    }
+    
+    .circle-caption4{
+        float: left;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .circle4{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: white;
+        text-align: center; 
+        padding-top: 25px;  
+    }
+    
+    .caption4{
+        padding-top: 10px;
+        height: 50px;
+    }
+
+    .o-nas-bottom1{
+        height: 100px;
+        grid-template-columns: 156px 334px;
+        grid-gap: 15px;
+    }
+    
+    .o-nas-img1{
+        width: 156px;
+        height: 100px;
+    }
+    
+    .o-nas-caption1{
+        width: 334px;
+    }
+    
+    .o-nas-bottom2{
+        height: 100px;
+        grid-template-columns: 334px 156px;
+        grid-gap: 15px;
+    }
+    
+    .o-nas-img2{
+        width: 156px;
+        height: 100px;
+    }
+    
+    .o-nas-caption2{
+        width: 334px;
+    }
+    
+    .o-nas-bottom3{
+        height: 100px;
+        grid-template-columns: 156px 334px;
+        grid-gap: 15px;
+    }
+    
+    .o-nas-img3{
+        width: 156px;
+        height: 100px;
+    }
+    
+    .o-nas-caption3{
+        width: 334px;
+    }
+    
+    .male-img{
+        height:100px;
+    }
+    
+    .female-img{
+        padding-left:56px;
+        height: 100px;
+    }
+    
+    .laptop-img{
+        height: 100px;
+        padding-left: 28px;
+    }
+    
+    .virus-img{
+        height: 100px;
+        padding-left: 28px;
+    }
+
+    .cennik-pakiety{
+        grid-template-columns: 142px 142px 142px;
+        grid-gap: 12px;
+    }
+
+    .container .cena-pakietu {
+        font-size: 16px;
+        height: 30px;
+        padding-top: 7px;
+        line-height: 16px;
+    }
+
+    .container .nazwa-pakietu {
+        font-size: 16px;
+        height: 30px;
+        padding-top: 7px;
+        line-height: 16px;
+    }
+
+    .cennik-pakiety li {
+        padding: 6px 9px;
+        background-color: #f7f7f7;
+        margin-bottom: 5px;
+        color: #696969;
+        font-size: 12px;
+    }
+
+    .cennik-uslug {
+        width: 450px;
+        font-size: 16px;
+    }
+    
+    .nazwa-uslugi {
+        width: 450px;
+        height: 40px;
+        padding-top: 12px;
+    }
+    
+    .cennik-przerwa {
+        width: 450px;
+    }
+    
+    .cennik-info {
+        width: 450px;
+    }
+
+    .sklep {
+        width: 450px;
+    }
+    
+    .sklep-pakiety {
+        grid-template-columns: 146.33px 146.33px 146.33px;
+    }
+    
+    .sklep-uslugi1 {
+        grid-template-columns: 222.25px 222.25px;
+    }
+    
+    .sklep-uslugi2 {
+        grid-template-columns: 222.25px 222.25px;
+    }
+
+    .sklep-pakiety .sklep-zdjecie {
+        width: 80px;
+        height: 80px;
+        padding: 20px 33.165px;
+    }
+    
+    .sklep-uslugi1 .sklep-zdjecie {
+        width: 80px;
+        height: 80px;
+        margin: 20px 71.125px;
+    }
+
+    .sklep-uslugi2 .sklep-zdjecie {
+        width: 80px;
+        height: 80px;
+        margin: 20px 71.125px;
+    }
+
+    .sklep-usluga .sklep-podpis {
+        font-size: 14px;
+    }
+
+    .produkt {
+        width: 450px;
+        grid-template-columns: 180px 240px;
+        grid-gap: 30px;
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .produkt-zdjecie {
+        height: 150px;
+        padding-left: 15px;
+    } 
+    
+    .zobacz-w-sklepie {
+        padding: 40.5px 37.47px;
+    }
+    
+    .produkt-info {
+        width: 450px;
+        padding-left: 25px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .kontakt1{
+        display: grid;
+        grid-template-columns: 300px 200px;
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kontakt2{
+        width: 300px;
+    }
+
+    .adres h1{
+        font-size: 14px;
+    }
+    .form h1 {
+        font-size: 14px;
+    }
+
+}
